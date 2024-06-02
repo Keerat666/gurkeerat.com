@@ -9,6 +9,7 @@ tags:
   - Flask
   - Javascript
   - React
+  - OpenAI
 ---
 
 ## Smart Hire Pro
