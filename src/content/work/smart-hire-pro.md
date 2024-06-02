@@ -1,35 +1,35 @@
 ---
 title: Smart Hire Pro
 publishDate: 2023-07-01 00:00:00
-img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
-description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+img: /assets/projects/smart-hire-pro.png
+img_alt: A screenshot of the demo
+description: Smart Hire Pro leverages the power of Language, Logic, and Machine Learning (LLM) to revolutionize the Human Resources department's operations.
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Python
+  - Flask
+  - Javascript
+  - React
 ---
 
-## Level-two heading
+## Smart Hire Pro
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+I've developed a suite of AI-powered APIs to streamline and improve the recruitment process for HR professionals. These APIs leverage Large Language Models (LLMs) and Natural Language Processing (NLP) to automate tasks and enhance decision-making.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+The Job Description Evaluation API analyzes job descriptions and offers suggestions for clarity and effectiveness, leading to better candidate attraction.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+The CV Ranking and Shortlisting API ranks candidates' resumes based on job requirements, saving HR professionals time by prioritizing the most qualified applicants.
 
-### Level-three heading
+The Candidate Interview Prompt Generation API creates tailored interview questions based on each candidate's profile and the job role, enabling more in-depth evaluations.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+This comprehensive solution empowers HR teams to make informed hiring decisions while saving valuable time through automation and improved recruitment workflows.
 
-### Level-three heading
+#### Links related to Smart Hire Pro : 
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+  <ul>
+    <li><a target="_blank" rel="noreferrer noopener" href="https://he-s3.s3.amazonaws.com/media/sprint/axis-llm-bankathon-1/team/1805172/3410d2fllm_bankathon___smarthirepro___10x_developers.pptx">Presentation</a>
+    </li>
+    <li><a target="_blank" rel="noreferrer noopener" href="https://youtu.be/LHUiWRnDTRk">Youtube Demo</a>
+    </li>
+  </ul>
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+  <p>Code is available on request. </p>

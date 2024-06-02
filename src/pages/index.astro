@@ -21,6 +21,15 @@ const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
 
+
+const videos = [
+  { url: 'https://youtube.com/live/u6QuntAp_Js', image: '/assets/videos/leetcode.jpg' },
+  { url: 'https://www.youtube.com/live/93_q62yicnk', image: '/assets/videos/vision.jpg' }, // Add objects for other brands
+  { url: 'https://youtube.com/live/eAblLirSU-Y', image: '/assets/videos/zed.jpg' },
+  { url: 'https://www.youtube.com/watch?v=K2tFez9htaU', image: '/assets/videos/eureka.jpg' },
+  { url: 'https://www.youtube.com/watch?v=AleK5mV-EIc', image: '/assets/videos/coldplay.jpg' }
+];
+
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
 ---
@@ -36,9 +45,8 @@ const projects = (await getCollection('work'))
 					align="start"
 				>
 					<div class="roles">
-						<a style="text-decoration: none;" href="https://google.com" target="_blank"><Pill><Icon icon="pencil-line" size="1.33em" /> Resume</Pill></a><Pill><Icon icon="code" size="1.33em" /> Github Profile</Pill>
-						<a style="text-decoration: none;" href="google.com" target="_blank"><Pill><Icon icon="code" size="1.33em" /> Leetcode Profile</Pill></a>
-						<a style="text-decoration: none;" href="google.com" target="_blank"><Pill><Icon icon="microphone-stage" size="1.33em" /> Youtube Channel</Pill></a>
+						<a style="text-decoration: none;"  href="../../public/assets/resume/resume.pdf" target="_blank"><Pill><Icon icon="pencil-line" size="1.33em" /> Resume</Pill></a>
+						<a style="text-decoration: none;" href="https://www.youtube.com/channel/UCUKfjwTKqNfH8L2vlLwcqwg" target="_blank"><Pill><Icon icon="microphone-stage" size="1.33em" /> Youtube Channel</Pill></a>
 					</div>
 				</Hero>
 
@@ -92,11 +100,13 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
+							videos.map((video) => {
+							const backgroundImageStyle = { backgroundImage: `url(${video.image})` };
+
+							return <a href={video.url} target="_blank" rel="noreferrer noopener">
+								<li class="mention-card" style={backgroundImageStyle}></li>
+							</a>								
+							})
 						}
 					</Grid>
 				</div>
@@ -240,8 +250,12 @@ const projects = (await getCollection('work'))
 		border: 1px solid var(--gray-800);
 		border-radius: 1.5rem;
 		color: var(--gray-300);
-		background: var(--gradient-subtle);
+		/* background: var(--gradient-subtle); */
 		box-shadow: var(--shadow-sm);
+		background-image: url("../../public//assets/eureka.jpg");
+		background-size: cover;
+    	background-position: center;
+		cursor: pointer;
 	}
 
 	@media (min-width: 50em) {
