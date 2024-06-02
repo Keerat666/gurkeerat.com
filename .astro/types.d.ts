@@ -140,9 +140,9 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"eureka-ai.md": {
-	id: "eureka-ai.md";
-  slug: "eureka-ai";
+"eureka_ai.md": {
+	id: "eureka_ai.md";
+  slug: "eureka_ai";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
