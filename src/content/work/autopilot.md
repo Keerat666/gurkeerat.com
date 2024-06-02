@@ -5,8 +5,6 @@ img: /assets/projects/autopilot.jpg
 img_alt: A screenshot of the homepage of Autopilot
 description: I have timed myself and you can create your first repo on AutoPilot in less than 3 minutes with a repo that has out of the box TiDB support along with a custom model having all the CRUD API's ready.
 tags:
-  - AI
-  - Bootstrap
   - Node.js
   - OpenAI
   - React

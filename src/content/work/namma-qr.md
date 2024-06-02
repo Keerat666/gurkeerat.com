@@ -9,7 +9,6 @@ tags:
   - React Native
   - Express.js
   - MongoDb
-  - Cloudinary
 ---
 
 To cater to drivers' preferences, a functionality is included in the app allowing them to toggle between accepting instant rides or not. This feature benefits both customers and drivers by providing quick rides for either short or long distances, saving time and fuel. Additionally, drivers can gain insights into popular areas for instant rides, enabling them to locate potential customers more effectively.
