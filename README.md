@@ -1,6 +1,6 @@
 # Gurkeerat's Portfolio
 
-<img width="1512" alt="Screenshot 2024-06-02 at 00 57 31" src="https://github.com/Keerat666/my-portfolio/assets/18071315/7928037e-55b4-42a7-a187-54507c792e06">
+<img width="1512" alt="Screenshot 2024-06-02 at 23 05 20" src="https://github.com/Keerat666/my-portfolio/assets/18071315/fa5412d5-1fed-4686-9319-5282e30bebcc">
 
 
 ## 🧞 Commands
