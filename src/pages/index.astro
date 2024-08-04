@@ -17,15 +17,19 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent work projects
-const projects = (await getCollection('work'))
-	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+let projects = (await getCollection('work'))
+	.filter((item) => item.data.pin === true)
 	.slice(0, 4);
+
+projects = projects.sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 
 
 const videos = [
+  { url: 'https://youtu.be/lvYlaLirLio?si=l8C-xsosjsWqPtKR', image: '/assets/projects/nutrilens.png' },
   { url: 'https://youtube.com/live/u6QuntAp_Js', image: '/assets/videos/leetcode.jpg' },
   { url: 'https://www.youtube.com/live/93_q62yicnk', image: '/assets/videos/vision.jpg' }, // Add objects for other brands
-  { url: 'https://youtube.com/live/eAblLirSU-Y', image: '/assets/videos/zed.jpg' },
   { url: 'https://www.youtube.com/watch?v=K2tFez9htaU', image: '/assets/videos/eureka.jpg' },
   { url: 'https://www.youtube.com/watch?v=AleK5mV-EIc', image: '/assets/videos/coldplay.jpg' }
 ];

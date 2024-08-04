@@ -1,6 +1,7 @@
 ---
 title: Smart Hire Pro
-publishDate: 2023-07-01 00:00:00
+publishDate: 2023-08-15 00:00:00
+pin : false
 img: /assets/projects/smart-hire-pro.png
 img_alt: A screenshot of the demo
 description: Smart Hire Pro leverages the power of Language, Logic, and Machine Learning (LLM) to revolutionize the Human Resources department's operations.
