@@ -154,6 +154,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"nutrilens.md": {
+	id: "nutrilens.md";
+  slug: "nutrilens";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "smart-hire-pro.md": {
 	id: "smart-hire-pro.md";
   slug: "smart-hire-pro";

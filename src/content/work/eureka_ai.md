@@ -1,6 +1,7 @@
 ---
 title: Eureka AI
 publishDate: 2024-05-01 00:00:00
+pin : true
 img: /assets/projects/eureka-ai.png
 img_alt: A screenshot of Eureka
 description: Eureka AI lets you learn from the best, right from your couch, absolutely free. So ditch the boring and embrace the extraordinary – Eureka AI, where you learn your favourite topic from your favourite celebrity!

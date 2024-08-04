@@ -3,6 +3,7 @@ title: Aristo
 publishDate: 2023-10-01 00:00:00
 img: /assets/projects/aristo.png
 img_alt: A screenshot of Aristo
+pin : false
 description: |
   Coding itself is an art, and there is no place in the software development lifecycle that is funnier and more amusing than a Pull Request chain filled with comments. My journey with Aristo began as an exploration of the intersection between coding, technology, and human creativity. I was inspired by the ever-evolving landscape of software development and the opportunities to enhance the developer experience.
 

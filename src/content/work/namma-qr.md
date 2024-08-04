@@ -1,6 +1,8 @@
 ---
 title: Namma QR 🏆
 publishDate: 2023-04-01 00:00:00
+pin : true
+win : true
 img: /assets/projects/namma-qr.png
 img_alt: A picture of me showing a demo of the app
 description: The idea is for users to walk out of a location, scan a QR code on the nearest auto using the Namma Yatri app, and instantly start their ride without any delays.

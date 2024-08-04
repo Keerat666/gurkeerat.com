@@ -1,6 +1,7 @@
 ---
 title: Autopilot
-publishDate: 2023-07-01 00:00:00
+publishDate: 2023-07-28 00:00:00
+pin : true
 img: /assets/projects/autopilot.jpg
 img_alt: A screenshot of the homepage of Autopilot
 description: I have timed myself and you can create your first repo on AutoPilot in less than 3 minutes with a repo that has out of the box TiDB support along with a custom model having all the CRUD API's ready.
@@ -39,7 +40,7 @@ Some of my goals for the future are as follows :
 - Detailed Analytics of users and projects (Another potential OLAP use case)
 - Swagger/Postman like interface to test APIs from AutoPilot itself
 
-#### Links related to Smart Hire Pro : 
+#### Links related to AutoPilot : 
 
   <ul>
     <li><a target="_blank" rel="noreferrer noopener" href="https://docs.google.com/presentation/d/17Duu78chyswit73Hju97wfsQxKAjK9Alq7SVbd2Tli4/edit?usp=sharing">Presentation</a>
